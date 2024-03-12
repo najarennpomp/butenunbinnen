@@ -1,0 +1,25 @@
+* {
+  font-family: "Times New Roman", serif;
+  font-size: 18px;   
+  text-align: left;
+  padding: 2px;
+  margin: 2px;
+  border: 2px;
+}
+
+title {
+  color: blue;
+  font-size: 25px;
+  text-align: center;
+}
+
+img {
+  height: auto;
+  width: 500px;
+}
+
+.hyperlink {
+  color: blue;
+  font-weight: bold;
+}
+
