@@ -7,12 +7,6 @@ body {
   border: 2px;
 }
 
-title {
-  color: blue;
-  font-size: 25px;
-  text-align: center;
-}
-
 img {
   height: auto;
   width: 10%;
@@ -28,18 +22,42 @@ img {
 menu {
 }
 
-h1 {
+side h1 {
+  text-align: right;
+  text-transform: uppercase;
+  line-height: 1px;
+}
+
+side h2 {
   text-align: right;
 }
 
+side {
+  flex: 0.2;
+  padding: 2%;
+}
+
+body {
+  display: flex;
+}
+
+nav {
+  font-size: 22px;
+  line-height: 50%;
+}
+
 h2 {
+  font-size: 24px;
 }
 
 table {
 }
 
 article {
+  flex: 1;
+  ali
 }
 
 footer {
+  flex: 0.2;
 }
